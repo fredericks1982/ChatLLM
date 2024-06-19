@@ -1,0 +1,12 @@
+{
+    "name": "Chat App Development Container",
+    "dockerFile": "../Dockerfile",
+    "appPort": 5000,
+    "extensions": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/sh"
+    }
+}
